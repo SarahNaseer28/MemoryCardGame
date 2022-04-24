@@ -1,0 +1,77 @@
+.grid { 
+    width: 90%; 
+    height: 300px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-top: 120px; 
+    margin-left: 8em ;
+    margin-bottom: 40em;
+    } 
+    
+    .grid img { 
+    margin: 2px; 
+    transform-style: preserve-3d; 
+    transition: transform 0.5s; 
+    } 
+    
+    .grid img.flip { 
+    transform: rotateY(180deg); 
+    } 
+    
+    .popup { 
+    background:brown; 
+    width: 200px; 
+    height: 200px; 
+    z-index:20;
+    position: fixed; 
+    top: 100px;
+    left: 100px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    }
+    
+    .data { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px 30px; 
+    font-size: 23px; 
+    } 
+    
+    .data span { 
+    color:brown;
+    font-size: 30px; 
+    }
+    
+.personal
+{
+	font-size:45px;text-align:center;text-shadow:2px 2px #ba7b56;font-weight:bold;
+}
+h2{
+    color: #820f0f;
+    font-size: 1.5em;
+    text-align: center;
+  }
+td
+{
+    box-shadow:5px 10px 18px #ba7b56;text-align:center;font-size:30px;
+}
+a:link {
+    color: brown;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:white ;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
